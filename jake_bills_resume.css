@@ -1,4 +1,18 @@
-
 body {
-  color: "black"
+  font-family: 'Lato', sans-serif;
+}
+/* .right {
+  text-align: right;
+  display: inline;
+} */
+.left_and_right {
+   display: flex;
+   justify-content: space-between;
+}
+#skills {
+  display: flex;
+  justify-content: space-around;
+}
+#right {
+  float: right;
 }
