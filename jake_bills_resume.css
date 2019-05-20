@@ -1,10 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
 }
-/* .right {
-  text-align: right;
-  display: inline;
-} */
 .left_and_right {
    display: flex;
    justify-content: space-between;
@@ -13,6 +9,22 @@ body {
   display: flex;
   justify-content: space-around;
 }
-#right {
-  float: right;
+
+#main_title, #contact_info, .section_title {
+  text-align: center;
+}
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+}
+ul li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
