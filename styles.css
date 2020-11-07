@@ -25,6 +25,9 @@ ul {
 #experience li {
   max-width: 80%;
 }
+#projects li {
+  max-width: 80%;
+}
 ul li:before {
   content: ">";
   position: absolute;
